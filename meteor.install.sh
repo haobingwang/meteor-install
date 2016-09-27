@@ -137,7 +137,7 @@ INSTALL_TMPDIR="$HOME/.meteor-install-tmp"
 TARBALL_FILE="$HOME/.meteor-tarball-tmp"
 
 cleanUp() {
-  rm -rf "$TARBALL_FILE"
+  # rm -rf "$TARBALL_FILE"
   rm -rf "$INSTALL_TMPDIR"
 }
 
